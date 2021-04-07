@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Achievement galery</title>
+    <link rel="stylesheet" href="css/style.css" >
+</head>
+<body>
+<div class="area" >
+<form class="formPage" action="/add" method="POST">
+    <h1>Be proud of yourself</h1>
+    <br>
+    <br>
+    <br>
+    <p>
+    <img src="<%= info.imgUrl %>" alt="Img" style = "overflow : hidden; width: 300px ; height: 300px" >
+    </p>
+    <br>
+    <h3>Name</h3>
+    <h2><%= info.namePage %></h2>
+    <h3>Achievement</h3>
+    <h2><%= info.achievement %></h2>
+    <div class="round">
+        <button class="btn" type="submit">Add achievement</button>    
+    </div>
+
+</form>
+    <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </ul>
+</div >
+</body>
+</html>
